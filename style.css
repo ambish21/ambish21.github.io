@@ -8,6 +8,11 @@ body {
     background-color: #000;
     color: white;
     font-family: Arial, sans-serif;
+
+    /* footer fix */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* HEADER */
@@ -28,6 +33,9 @@ nav a {
 .page-box {
     text-align: center;
     padding: 80px 20px;
+
+    /* footer ko push karega */
+    flex: 1;
 }
 
 /* SKILLS */
