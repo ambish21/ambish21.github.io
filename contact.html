@@ -9,23 +9,29 @@
 
 <header>
     <h2>Ambish Yaqoob</h2>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="skills.html">Skills</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+
+
 </header>
+<div id="navbar"></div>
+
+<script>
+  fetch("navbar.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("navbar").innerHTML = data;
+    });
+</script>
 
 <div class="page-box">
     <h1>Contact Me</h1>
-    <p>Email: your-email@gmail.com</p>
-    <p>GitHub: your-github-link</p>
-    <p>LinkedIn: your-linkedin-link</p>
+    <p>Email:ambishyaqoob21@gmail.com</p>
+    <p>GitHub:https://github.com/ambish21
+ </p>
+    <p>LinkedIn:www.linkedin.com/in/ambish-yaqoob-b65303377 </p>
 </div>
 
 <footer>
-    <p>© Ambish Yaqoob</p>
+    <p>© Ambish Yaqoob|AI student</p>
 </footer>
 
 </body>

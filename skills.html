@@ -9,22 +9,26 @@
 
 <header>
     <h2>Ambish Yaqoob</h2>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="skills.html">Skills</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+    <div id="navbar"></div>
+
+<script>
+  fetch("navbar.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("navbar").innerHTML = data;
+    });
+</script>
+
 </header>
 
 <div class="page-box">
     <h1>My Skills</h1>
 
-    <div class="skill">Python</div>
-    <div class="skill">HTML</div>
-    <div class="skill">CSS</div>
-    <div class="skill">Team Work</div>
-    <div class="skill">Communication</div>
+    <div class="skill">Microsoft Office Tools (MS Word, Excel)</div>
+    <div class="skill">Front-End Development (HTML, CSS)</div>
+    <div class="skill">Programming Languages: Python, C++</div>
+    <div class="skill">Core concepts: OOP (Object-Oriented Programming), DSA (Data Structures & Algorithms)</div>
+    <div class="skill">Communication and Leadership Skills,Teamwork and Problem-Solving</div>
 </div>
 
 <footer>

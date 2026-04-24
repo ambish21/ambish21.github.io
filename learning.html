@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Learning Journey</title>
+</head>
+<body>
+
+<div id="navbar"></div>
+
+<h1>My Learning Journey</h1>
+
+<p>Yahan main apni learning journey share karungi.</p>
+
+<ul>
+  <li>Day 1: HTML basics</li>
+  <li>Day 2: CSS basics</li>
+  <li>Day 3: JavaScript intro</li>
+</ul>
+
+<script>
+  fetch("navbar.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("navbar").innerHTML = data;
+    });
+</script>
+
+</body>
+</html>
+
+<h2>My Learning Journey</h2>
+<p>Currently learning Python, AI & ML</p>
