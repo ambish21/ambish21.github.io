@@ -34,8 +34,8 @@ nav a {
     text-align: center;
     padding: 80px 20px;
 
-    /* footer ko push karega */
-    flex: 1;
+    /* 🔥 IMPORTANT FIX */
+    flex-grow: 1;
 }
 
 /* SKILLS */
