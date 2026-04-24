@@ -1,26 +1,16 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Learning Journey</title>
+    <meta charset="UTF-8">
+    <title>My Learning Journey</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<head>
-  <link rel="stylesheet" href="style.css">
-</head>
-
 <body>
 
+<header>
+    <h2>Ambish Yaqoob</h2>
+ 
+</header>
 <div id="navbar"></div>
-
-<h1>My Learning Journey</h1>
-
-<p>Yahan main apni learning journey share karungi.</p>
-
-<ul>
-  <li>Day 1: HTML basics</li>
-  <li>Day 2: CSS basics</li>
-  <li>Day 3: JavaScript intro</li>
-</ul>
-
 <script>
   fetch("navbar.html")
     .then(res => res.text())
@@ -28,9 +18,19 @@
       document.getElementById("navbar").innerHTML = data;
     });
 </script>
+<div class="page-box">
+    <h1>My Learning Journey</h1>
+    <p>Currently learning Python, AI & ML</p>
+    <ul>
+    <li>Day 1: HTML basics</li>
+    <li>Day 2: CSS basics</li>
+    <li>Day 3: JavaScript intro</li>
+    </ul>
+</div>
+
+<footer>
+    <p>© Ambish Yaqoob</p>
+</footer>
 
 </body>
 </html>
-
-<h2>My Learning Journey</h2>
-<p>Currently learning Python, AI & ML</p>
