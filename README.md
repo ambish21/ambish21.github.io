@@ -4,7 +4,7 @@ my personal portfolio website.
 this portfolio consist of:
 my personal information
 my skills
-my learnings 
+my learning
 mini projects
 
 
